@@ -1,0 +1,19 @@
+# Copy this file to terraform.tfvars and customize the values as needed
+
+# AWS Configuration
+aws_region = "ap-northeast-1"
+
+# Project Configuration  
+project_name = "amazon-connect-playground"
+environment  = "dev"
+
+# Amazon Connect Instance Configuration
+instance_alias = "connect-playground"
+
+# Identity Management
+# Options: CONNECT_MANAGED, SAML
+identity_management_type = "CONNECT_MANAGED"
+
+# Call Settings
+inbound_calls_enabled  = true
+outbound_calls_enabled = true
